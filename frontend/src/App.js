@@ -5,7 +5,7 @@ const App = () => {
   const [inputData, setInputData] = useState('');
   const [response, setResponse] = useState(null);
   const [selectedOptions, setSelectedOptions] = useState([]);
-  const backendURL = "https://your-backend-name.onrender.com/bfhl"; // Replace with your actual backend URL
+  const backendURL = "https://bajaj-vt5v.onrender.com/bfhl"; // Replace with your actual backend URL
 
   const handleInputChange = (e) => setInputData(e.target.value);
 
